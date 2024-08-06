@@ -1,0 +1,26 @@
+.sub-navbar {
+    display: flex;
+    background-color: #f8f8f8; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures children respect border-radius */
+    border: 1px solid #000; /* Black border around the navbar */
+  }
+  
+  .sub-navbar a {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black; /* Black text color */
+    border-right: 1px solid #000; /* Black dividers */
+  }
+  
+  .sub-navbar a:last-child {
+    border-right: none; /* No border for the last item */
+  }
+  
+  .sub-navbar a.active {
+    background-color: #007BFF; /* Blue background for active link */
+    color: white; /* White text for active link */
+  }
+  

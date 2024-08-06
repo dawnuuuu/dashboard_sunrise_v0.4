@@ -1,0 +1,27 @@
+.general-info {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+    padding: 10px;
+    margin-top: 20px; /* Space from other components */
+  }
+  
+  .general-info-header {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: -10px -10px 10px -10px; /* Align with outer padding */
+  }
+  
+  .info-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-item {
+    margin: 5px 0;
+  }
+  
